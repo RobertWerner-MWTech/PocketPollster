@@ -1,0 +1,301 @@
+<VisualStudioProject>
+    <ECSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.6030"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{3B69F2CD-C1B1-42F6-8875-65FD897BAD3D}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Multimedia"
+                AssemblyOriginatorKeyFile = ""
+                DelaySign = "false"
+                OutputType = "Library"
+                OutputFileFolder = "\Program Files\Pocket Pollster"
+                RootNamespace = "Multimedia"
+                StartupObject = ""
+            >
+                <Platform Name = "Pocket PC" />
+                <Config
+                    Name = "Debug|Pocket PC"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "0"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release|Pocket PC"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "0"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE;CF"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Platform = "Pocket PC"
+                    Name = "System"
+                    AssemblyName = "System"
+                    Private = "False"
+                />
+                <Reference
+                    Platform = "Pocket PC"
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    Private = "False"
+                />
+                <Reference
+                    Platform = "Pocket PC"
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    Private = "False"
+                />
+                <Reference
+                    Platform = "Pocket PC"
+                    Name = "mscorlib"
+                    AssemblyName = "mscorlib"
+                    Private = "False"
+                />
+                <Reference
+                    Platform = "Pocket PC"
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    Private = "False"
+                />
+                <Reference
+                    Platform = "Pocket PC-Designer"
+                    Name = "System.CF.Design"
+                    AssemblyName = "System.CF.Design"
+                    Private = "False"
+                />
+                <Reference
+                    Platform = "Pocket PC-Designer"
+                    Name = "System.CF.Design.UI"
+                    AssemblyName = "System.CF.Design.UI"
+                    Private = "False"
+                />
+                <Reference
+                    Platform = "Pocket PC-Designer"
+                    Name = "System.CF.Windows.Forms"
+                    AssemblyName = "System.CF.Windows.Forms"
+                    Private = "False"
+                />
+                <Reference
+                    Platform = "Pocket PC-Designer"
+                    Name = "System.CF.Drawing"
+                    AssemblyName = "System.CF.Drawing"
+                    Private = "False"
+                />
+                <Reference
+                    Platform = "Pocket PC-Designer"
+                    Name = "System"
+                    AssemblyName = "System"
+                    Private = "False"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "Anim1.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim1.jpg"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim10.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim10.jpg"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim11.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim11.jpg"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim12.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim12.jpg"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim13.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim13.jpg"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim14.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim14.jpg"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim2.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim2.jpg"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim3.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim3.jpg"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim4.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim4.jpg"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim5.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim5.jpg"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim6.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim6.jpg"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim7.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim7.jpg"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim8.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim8.jpg"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim9.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Anim9.jpg"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ArrowDown.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ArrowUp.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CheckMark1.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CheckMark2.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HideGraph.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ImageTools.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Logo-large.jpg"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Logo-small.jpg"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ReviewPoll0q.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ReviewPoll0r.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ReviewPoll1.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ReviewPoll2.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ReviewPoll3.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ShowGraph.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </ECSHARP>
+</VisualStudioProject>
+

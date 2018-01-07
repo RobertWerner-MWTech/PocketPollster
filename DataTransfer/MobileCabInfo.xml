@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Cabs>
+    <!-- Note: The order of these "records" will determine the order of installation of the CAB files to the mobile device! -->
+    
+    <NetCF>
+        <Filename_v3>netcf.core.ppc3.#.cab</Filename_v3>
+        <Filename_v4>netcf.all.wce4.#.cab</Filename_v4>
+        <Version>1.0.4292.00</Version>
+        <RegKey>Software\Microsoft\.NETCompactFramework</RegKey>
+        <ValPrefix></ValPrefix>
+    </NetCF>
+
+    <app>
+        <Filename>PP_ppc.#.cab</Filename>
+        <Version>1.0.2839.39065</Version>
+        <RegKey>Software\PocketPollster</RegKey>
+        <ValPrefix>Version</ValPrefix>
+    </app>
+</Cabs>

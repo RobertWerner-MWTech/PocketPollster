@@ -1,0 +1,3 @@
+C:\Projects\Products\PocketPollster\Desktop\bin\Debug\PP.exe.config
+C:\Projects\Products\PocketPollster\Desktop\obj\Debug\PP.exe
+C:\Projects\Products\PocketPollster\Desktop\obj\Debug\PP.pdb

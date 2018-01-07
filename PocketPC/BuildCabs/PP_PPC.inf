@@ -1,0 +1,153 @@
+[Version]
+Signature="$Windows NT$"
+Provider="IMS"
+CESignature="$Windows CE$"
+
+[CEStrings]
+AppName="Pocket Pollster"
+InstallDir=%CE1%\%AppName%
+
+[CEDevice]
+VersionMin=3.00
+VersionMax=4.99
+
+[DefaultInstall]
+CEShortcuts=Shortcuts
+CopyFiles=Files.Common
+
+[DefaultInstall.ARMV4]
+CopyFiles=Files.ARMV4
+CESetupDLL=vsd_setup.dll
+
+[DefaultInstall.ARM]
+CopyFiles=Files.ARM
+CESetupDLL=vsd_setup.dll
+
+[DefaultInstall.SH3]
+CopyFiles=Files.SH3
+CESetupDLL=vsd_setup.dll
+
+[DefaultInstall.MIPS]
+CopyFiles=Files.MIPS
+CESetupDLL=vsd_setup.dll
+
+[DefaultInstall.X86]
+CopyFiles=Files.X86
+CESetupDLL=vsd_setup.dll
+
+[DefaultInstall.WCE420X86]
+CopyFiles=Files.WCE420X86
+CESetupDLL=vsd_setup.dll
+
+[SourceDisksNames]
+1=,"Common1",,"C:\Projects\Products\PocketPollster\PocketPC\obj\Debug\"
+2=,"Common2",,"C:\Projects\Products\PocketPollster\Multimedia\bin\Debug\"
+3=,"Common3",,"C:\Projects\Products\PocketPollster\DataObjects\bin\Debug\"
+4=,"Common4",,"C:\Projects\Products\PocketPollster\RefData\bin\Debug\"
+5=,"Common5",,"C:\Program Files\Microsoft Visual Studio .NET 2003\CompactFrameworkSDK\v1.0.5000\Windows CE\"
+6=,"Common6",,"C:\Program Files\Microsoft Visual Studio .NET 2003\CompactFrameworkSDK\v1.0.5000\Windows CE\"
+7=,"Common7",,"C:\Program Files\Microsoft Visual Studio .NET 2003\CompactFrameworkSDK\v1.0.5000\Windows CE\"
+
+[SourceDisksNames.ARMV4]
+8=,"ARMV44",,"C:\Projects\Products\PocketPollster\PocketPC\obj\Debug\"
+9=,"ARMV4_Setup",,"C:\Program Files\Microsoft Visual Studio .NET 2003\CompactFrameworkSDK\v1.0.5000\Windows CE\wce300\ARMV4\"
+
+[SourceDisksNames.ARM]
+10=,"ARM6",,"C:\Projects\Products\PocketPollster\PocketPC\obj\Debug\"
+11=,"ARM_Setup",,"C:\Program Files\Microsoft Visual Studio .NET 2003\CompactFrameworkSDK\v1.0.5000\Windows CE\wce300\ARM\"
+
+[SourceDisksNames.SH3]
+12=,"SH38",,"C:\Projects\Products\PocketPollster\PocketPC\obj\Debug\"
+13=,"SH3_Setup",,"C:\Program Files\Microsoft Visual Studio .NET 2003\CompactFrameworkSDK\v1.0.5000\Windows CE\wce300\SH3\"
+
+[SourceDisksNames.MIPS]
+14=,"MIPS10",,"C:\Projects\Products\PocketPollster\PocketPC\obj\Debug\"
+15=,"MIPS_Setup",,"C:\Program Files\Microsoft Visual Studio .NET 2003\CompactFrameworkSDK\v1.0.5000\Windows CE\wce300\MIPS\"
+
+[SourceDisksNames.X86]
+16=,"X8612",,"C:\Projects\Products\PocketPollster\PocketPC\obj\Debug\"
+17=,"X86_Setup",,"C:\Program Files\Microsoft Visual Studio .NET 2003\CompactFrameworkSDK\v1.0.5000\Windows CE\wce300\X86\"
+
+[SourceDisksNames.WCE420X86]
+18=,"WCE420X8614",,"C:\Projects\Products\PocketPollster\PocketPC\obj\Debug\"
+19=,"WCE420X86_Setup",,"C:\Program Files\Microsoft Visual Studio .NET 2003\CompactFrameworkSDK\v1.0.5000\Windows CE\wce300\WCE420X86\"
+
+[SourceDisksFiles]
+PP.exe=1
+Multimedia.dll=2
+DataObjectsCF.dll=3
+RefData.dll=4
+OpenNETCF.dll=5
+OpenNETCF.Drawing.dll=6
+OpenNETCF.Windows.Forms.dll=7
+
+[SourceDisksFiles.ARMV4]
+vsd_config.txt.ARMV4=8
+vsd_setup.dll=9
+
+[SourceDisksFiles.ARM]
+vsd_config.txt.ARM=10
+vsd_setup.dll=11
+
+[SourceDisksFiles.SH3]
+vsd_config.txt.SH3=12
+vsd_setup.dll=13
+
+[SourceDisksFiles.MIPS]
+vsd_config.txt.MIPS=14
+vsd_setup.dll=15
+
+[SourceDisksFiles.X86]
+vsd_config.txt.X86=16
+vsd_setup.dll=17
+
+[SourceDisksFiles.WCE420X86]
+vsd_config.txt.WCE420X86=18
+vsd_setup.dll=19
+
+[DestinationDirs]
+Files.Common=0,%InstallDir%
+Shortcuts=0,%CE2%\Start Menu
+Files.ARMV4=0,%InstallDir%
+Files.ARM=0,%InstallDir%
+Files.SH3=0,%InstallDir%
+Files.MIPS=0,%InstallDir%
+Files.X86=0,%InstallDir%
+Files.WCE420X86=0,%InstallDir%
+
+[Files.Common]
+PP.exe,,,0
+Multimedia.dll,,,0
+DataObjectsCF.dll,,,0
+RefData.dll,,,0
+OpenNETCF.dll,,,0
+OpenNETCF.Drawing.dll,,,0
+OpenNETCF.Windows.Forms.dll,,,0
+
+[Files.ARMV4]
+vsd_config.txt,vsd_config.txt.ARMV4,,0
+vsd_setup.dll,,,0
+
+[Files.ARM]
+vsd_config.txt,vsd_config.txt.ARM,,0
+vsd_setup.dll,,,0
+
+[Files.SH3]
+vsd_config.txt,vsd_config.txt.SH3,,0
+vsd_setup.dll,,,0
+
+[Files.MIPS]
+vsd_config.txt,vsd_config.txt.MIPS,,0
+vsd_setup.dll,,,0
+
+[Files.X86]
+vsd_config.txt,vsd_config.txt.X86,,0
+vsd_setup.dll,,,0
+
+[Files.WCE420X86]
+vsd_config.txt,vsd_config.txt.WCE420X86,,0
+vsd_setup.dll,,,0
+
+[Shortcuts]
+Pocket Pollster,0,PP.exe,%CE11%
+ 

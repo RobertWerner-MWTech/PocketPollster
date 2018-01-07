@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<ProductInfo>
+    <Admin>
+        <AppName>Pocket Pollster</AppName>
+        <AppFilename>PP.exe</AppFilename>
+        <AppExtension>PP</AppExtension>
+        <ProductID>1</ProductID>
+        <CompanyName>Innovative Mobile Solutions</CompanyName>
+        <RegKeyName>PocketPollster</RegKeyName>
+        <ExpiryDate>2007-12-31T11:59:59</ExpiryDate>
+        <OperatingMode>1</OperatingMode>
+    </Admin>
+</ProductInfo>
