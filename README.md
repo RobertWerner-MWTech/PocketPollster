@@ -8,4 +8,6 @@ For a more detailed explanation please read [this document](Docs/PP_AlphaTutoria
 
 I've decided to publish this code publicly because I think it is a good representation of my work back then.  Forgive the fact that there are no tests at all but back then I simply didn't know about such practices!
 
-Given the fact that it's almost 2020, I'm amazed that so many organizations still user paper forms.
+Given the fact that it's almost 2020, I'm amazed that so many organizations still user paper forms.  
+
+![PocketPollster logo](Graphics/PP_large.jpg)
