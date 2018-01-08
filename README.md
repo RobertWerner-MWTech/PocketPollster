@@ -10,4 +10,4 @@ I've decided to publish this code publicly because I think it is a good represen
 
 Given the fact that it's almost 2020, I'm amazed that so many organizations still user paper forms.  
 
-![PocketPollster logo](Graphics/PP_large.jpg)
+![PocketPollster logo](Graphics/PP_large2.jpg)
